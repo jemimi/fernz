@@ -7,7 +7,7 @@ const Header = () => {
         <header>
          <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect>
             <Container>  
-                <Navbar.Brand as={Link} to='/'>Shop</Navbar.Brand>
+                <Navbar.Brand as={Link} to='/'>Fernz</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto"> {/*margin left adds space and moves the nav to right */}
