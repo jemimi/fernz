@@ -11,6 +11,7 @@ const App = () => {
     <Router> 
       <Header/> {/*adding the adder here- need the slash after */}
         <main className='py-3'> {/* adds padding above the title "welcome to..." */}
+
           <Container>
           {/*<HomeScreen/> imported Homescreen file here - products from HomeScreen.js are called from products.js..." */}
           <Route path='/' component={HomeScreen} exact />
