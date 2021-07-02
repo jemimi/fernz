@@ -1,5 +1,5 @@
 to start :
-open termial at root
+open terminal at root
 type:
 
 npm run dev

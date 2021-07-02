@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: '1',
+  //mongodb will create its own id so need to delete id _id: '3',
     name: '1.5 ft Tall Snake Plant',
     image: '/images/Snake-Plant.jpg',
     description:
@@ -13,7 +13,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
+
     name: 'Peperomia Plant',
     image: '/images/peperomia.jpg',
     description:
@@ -26,7 +26,7 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
+    
     name: 'Monstera Esqueleto',
     image: '/images/Monstera-Esqueleto.jpg',
     description:
@@ -39,7 +39,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
+  
     name: 'Marble Pothos',
     image: '/images/marble_pothos.jpg',
     description:
@@ -52,7 +52,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
+ 
     name: 'Stromanthe Tricolor',
     image: '/images/Stromanthe-Tricolor.jpg',
     description:
@@ -65,7 +65,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '6',
+
     name: 'Deliciosa Albo Variegatg',
     image: '/images/Deliciosa-Albo-Variegata.jpg',
     description:
@@ -78,7 +78,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '7',
+
     name: 'Global Green Pothos',
     image: '/images/globalgreen_pothos.jpg',
     description:
@@ -92,7 +92,7 @@ const products = [
     
   },
   {
-    _id: '8',
+
     name: 'Syngonium Albo',
     image: '/images/syngonium_albo.jpg',
     description:
@@ -106,7 +106,7 @@ const products = [
     
   },
   {
-    _id: '9',
+
     name: 'Handmade Succulent Wabi Sabi Pot with Mystery Succulent',
     image: '/images/wabisabi.jpeg',
     description:
