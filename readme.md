@@ -1,52 +1,47 @@
-# Weekly Task List
+# Fernz : online
+## An online store for plants
 
-## Task List
+## Purpose
+To build an online store for plants on the MERN stack. 
 
-- Product detials
-- frontend/backend workflow
-- fetching products from React
-- setup Nodemon and concurrently
-- MongoDB Atlas & compass setup
+## Major functions: 
+At present, a static site that is connected to MongoDB Atlas for the backend to display the information of the plants.
 
-## Learning Curve
-
-Understanding the workflows between frontend and backend.
-Understanding react routers  
-localhost:3000 = frontend  
-localhost:5000 = backend
-
-Setting up Nodemon & Concurrently:
-concurrently connects the backend and front end together. Need to write scripts let concurrently what to do:  
- "dev": "concurrently \"npm run server\" \"npm run client\""
-
-Nodemon listens to server and updates automatically. Need to add the following in package.json:
-
-"server": "nodemon backend/server",
-"client": "npm start --prefix frontend",
-
-Reviewing GET, POST, PUT and DELETE
-
-### Learning resources:
-
-udemy course - ecommerce on the MERN stack
+## Dependencies: 
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "http-proxy-middleware": "^2.0.0",
+    "mongoose": "^5.13.0",
+    "morgan": "^1.10.0"
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+     heroku-postbuild
 
 
-Week 5
+## Build and Deploy Instructions: 
+#### Getting Started with Create React App
 
- Add MongoDB Atlas
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Challenges: 
-After connecting the backend and front-end servers together with the installation of nodemon and concurrently (npm dependencies),  starting the app by typing "npm run server" in the terminal at the root folder would cause nodemon to crash. And only the front-end server would work and show in the browser. 
-I resolved this bug by adding the line in the package.json file at the root level. 
-"type": "module", 
+In the project directory, you can run:
 
-Now it works. The "type": "module" allows the file name to have a .js extenstion instead of a .mjs
+npm run dev
 
-Week 6-7
-Challenges: 
-Trying to self-learn the MERN stack was an ambitious endeavor.  With the team code base that was built by Sandra, Journey and Asia, I spent much time trying to understand the code base including the routes, the folder structure, useStates, props etc. I attempted to add a new review component but the site would fail to compile.  I also tried multiple times to refactor the code to display the homepage with react bootstrap styling. I implemented the Card feature from React Bootstrap to display in a single vertical line but was not able to get it to display as 3 columns (i.e Cards) on each Row. However, after refactoring the code in the index.js and destructuring the code in the list-listing.js file, some of the links in the header did not work. 
 
-As a result, I scaled back my learning to React. I worked on a separate small-scale React application with json file as the data source. 
+## Future Steps: 
+This is a work in progress where I will be implementing the following functionality: 
+1. add to cart / order 
+2. reviews: ability to write and submit review
+3. login/signup
+4. roles: customer/admin 
+5. payment processing: paypal 
+6. search function
+
+
+
 
 
 
