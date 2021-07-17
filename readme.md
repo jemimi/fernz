@@ -1,4 +1,4 @@
-# Fernz : online
+# Fernz :
 ## An online store for plants
 
 ## Purpose
